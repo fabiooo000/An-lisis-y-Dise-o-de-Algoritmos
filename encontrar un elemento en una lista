@@ -1,0 +1,10 @@
+public static boolean buscar_elemento(int[] lista, int elemento)
+{
+    for (int i : lista)
+    {
+        if (i == elemento)
+        {
+            return true;
+        }
+    }
+}
