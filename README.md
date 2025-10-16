@@ -49,7 +49,7 @@ Este curso, de naturaleza **práctica y orientada a objetos**, tiene como objeti
 ---
 
 ## 🎯 Objetivo del curso
-Aplicar técnicas algorítmicas —ordenación, búsqueda, recursividad, grafos y estrategias voraces— para resolver problemas de software con **eficiencia, corrección y escalabilidad**, fundamentando el desarrollo de sistemas complejos en entornos reales.
+Aplicar técnicas algorítmicas ordenación, búsqueda, recursividad, grafos y estrategias voraces para resolver problemas de software con **eficiencia, corrección y escalabilidad**, fundamentando el desarrollo de sistemas complejos en entornos reales.
 
 ---
 
