@@ -1,41 +1,55 @@
 # Análisis y Diseño de Algoritmos (100000SI35)
 
-Repositorio académico del curso **Análisis y Diseño de Algoritmos**, correspondiente al **Ciclo 2 – 2025** de la carrera de **Ingeniería de Sistemas e Informática / Ingeniería de Software**.
+Repositorio académico del curso **Análisis y Diseño de Algoritmos**, correspondiente al **Ciclo 2 – 2025** de las carreras de **Ingeniería de Sistemas e Informática** e **Ingeniería de Software**.
 
-Este curso tiene un enfoque práctico y está orientado a desarrollar soluciones algorítmicas eficientes mediante el uso de estructuras de datos y técnicas de diseño algorítmico en **Java**.
+Este curso, de naturaleza **práctica y orientada a objetos**, tiene como objetivo desarrollar en el estudiante la capacidad de diseñar, implementar y analizar algoritmos eficientes para resolver problemas reales de software, utilizando **Java** como lenguaje principal.
 
-## 📚 Unidad 2: Métodos de Búsqueda (Semanas 6–10)
+---
 
-Durante esta unidad se abordan los algoritmos fundamentales para la **búsqueda interna y externa de datos**, con énfasis en eficiencia, escalabilidad y manejo de grandes volúmenes de información.
+## 📚 Unidades de Aprendizaje
 
-### 🔹 Búsqueda Interna
-- **Tablas Hash (Tablas de Dispersión)**
-  - Funciones de dispersión (división, multiplicación, suma de caracteres)
-  - Colisiones y técnicas de resolución:
-    - Encadenamiento (direccionamiento enlazado)
-    - Direccionamiento abierto: sondeo lineal, cuadrático y doble hashing
-  - Exploración de direcciones
+### 🔹 Unidad 1: Análisis de Algoritmos y Métodos de Ordenación (Semanas 1–5)
+- **Complejidad algorítmica**: notación Big O, análisis de rendimiento.
+- **Ordenación interna**: burbuja, selección, inserción.
+- **Ordenación externa**: mezcla directa, fusión natural, mezcla equilibrada múltiple, método polifásico.
+- Resolución de problemas con pruebas unitarias.
 
-### 🔹 Búsqueda Externa
-- **Búsqueda en archivos** (cuando los datos no caben en memoria principal):
-  - Búsqueda secuencial mediante bloques
-  - Búsqueda secuencial con índices
-  - Búsqueda por transformación de claves (hashing externo)
-- **Estructuras avanzadas para recuperación eficiente**:
-  - Listas invertidas (usadas en motores de búsqueda)
-  - Multilistas (búsquedas multicriterio)
+### 🔹 Unidad 2: Métodos de Búsqueda (Semanas 6–10)
+- **Búsqueda interna**: tablas hash, funciones de dispersión, colisiones.
+  - Técnicas de resolución: encadenamiento, sondeo lineal, cuadrático, doble hashing.
+- **Búsqueda externa**:
+  - Búsqueda secuencial por bloques.
+  - Búsqueda con índices.
+  - Búsqueda por transformación de claves (hashing externo).
+  - Listas invertidas y multilistas (usadas en motores de búsqueda y bases de datos).
+
+### 🔹 Unidad 3: Divide y Vencerás (Semanas 11–15)
+- **Ordenación eficiente**: Shell sort, Quick Sort.
+- **Búsqueda eficiente**: búsqueda binaria vs lineal.
+- **Recursividad y backtracking**:
+  - Pila de llamadas, recursión indirecta.
+  - Algoritmos de vuelta atrás para problemas de selección óptima.
+
+### 🔹 Unidad 4: Exploración de Grafos y Algoritmos Voraces (Semanas 16–18)
+- **Grafos dirigidos**:
+  - Recorridos: BFS (anchura) y DFS (profundidad).
+  - Algoritmo de Warshall (matriz de caminos).
+  - Algoritmo de Dijkstra (caminos más cortos).
+- **Grafos no dirigidos**:
+  - Árboles de expansión mínima.
+  - Algoritmos de Prim y Kruskal.
+
+---
 
 ## 💻 Contenido del repositorio
-- Implementaciones didácticas en **Java** (48 fragmentos comentados)
-- Ejemplos prácticos de:
-  - Tablas hash con encadenamiento
-  - Simulación de lectura por bloques
-  - Índices simples y hashing externo
-  - Listas invertidas y multilistas
-- Código orientado a comprensión algorítmica, pruebas unitarias y buenas prácticas
+- Implementaciones en **Java** de todos los algoritmos del curso.
+- Código limpio, modular y orientado a la comprensión algorítmica.
+- Soluciones a casos de estudio propuestos en clase.
+
+---
 
 ## 🎯 Objetivo del curso
-Aplicar técnicas algorítmicas de búsqueda —tanto interna como externa— para resolver problemas reales de software, priorizando la **eficiencia**, la **correctitud** y la **escalabilidad**.
+Aplicar técnicas algorítmicas —ordenación, búsqueda, recursividad, grafos y estrategias voraces— para resolver problemas de software con **eficiencia, corrección y escalabilidad**, fundamentando el desarrollo de sistemas complejos en entornos reales.
 
 ---
 
